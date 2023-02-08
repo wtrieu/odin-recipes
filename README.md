@@ -1,0 +1,1 @@
+This current project involves setting up a basic recipe website. After completion of this project, I will have practical experiencing using what we've learned with HTML.
