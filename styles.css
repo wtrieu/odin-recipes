@@ -1,0 +1,32 @@
+.regular{
+    color: black;
+    background-color: red;
+    font-family: "Verdana","DejaVu Sans","sans-serif";
+}
+#id1{
+    color: blue;
+    font-size: 36px;
+}
+.cool{
+    font-size: 24px;
+}
+#id2{
+    color: black;
+    background-color: green;
+    font-size: 24px;
+    font-weight: 700;
+}
+.inverted,
+.fancy {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.inverted {
+  background-color: black;
+  color: white;
+}
+
+.fancy {
+  background-color: yellow;
+}
