@@ -1,7 +1,20 @@
-.regular{
-    color: black;
-    background-color: red;
+.header{
+    padding:45px;
+    color: white;
+    text-align: center;
+    background: #1abc9c;
     font-family: "Verdana","DejaVu Sans","sans-serif";
+    font-size:30px;
+}
+.sub{
+        color: black;
+        font-family: "Verdana","DejaVu Sans","sans-serif";
+        font-size:20px;
+}
+.item{
+    color: black;
+    font-family: "Verdana","DejaVu Sans","sans-serif";
+    font-size:12px;
 }
 #id1{
     color: blue;
