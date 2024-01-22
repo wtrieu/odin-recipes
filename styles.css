@@ -1,5 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .header{
-    padding:45px;
+    padding:25px;
+    border: 10px;
     color: white;
     text-align: center;
     background: #1abc9c;
@@ -7,9 +15,9 @@
     font-size:30px;
 }
 .sub{
-        color: black;
-        font-family: "Verdana","DejaVu Sans","sans-serif";
-        font-size:20px;
+    color: black;
+    font-family: "Verdana","DejaVu Sans","sans-serif";
+    font-size:20px;
 }
 .cat{
     color: black;
@@ -48,3 +56,20 @@
 .fancy {
   background-color: yellow;
 }
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: #1abc9c;
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+    font-family: "Verdana","DejaVu Sans","sans-serif";
+    font-size:18px;
+}
+  
+.flex-container a:hover {
+    background-color: rgb(66, 28, 40);
+    color: #fff;
+}
+      
